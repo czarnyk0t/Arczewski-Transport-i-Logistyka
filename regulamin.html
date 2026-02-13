@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arczewski | Regulamin</title>
+  <meta name="description" content="Regulamin firmy Arczewski – zasady Discord, jazdy, obowiązki kierowcy i sankcje." />
+  <style>
+    :root{
+      --bg:#07070a; --text:#f2f2f5; --muted:#b9b9c3;
+      --red:#ff2b2b; --line:rgba(255,255,255,.08); --shadow:rgba(255,43,43,.18);
+      --panel: rgba(0,0,0,.22);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:
+        radial-gradient(1200px 700px at 70% 15%, rgba(255,43,43,.22), transparent 55%),
+        radial-gradient(900px 600px at 20% 70%, rgba(255,43,43,.14), transparent 55%),
+        linear-gradient(180deg, rgba(255,255,255,.02), transparent 30%),
+        var(--bg);
+      color:var(--text);
+    }
+    a{color:inherit}
+    .wrap{max-width:1000px;margin:0 auto;padding:34px 18px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logoMark{
+      width:44px;height:44px;border-radius:12px;
+      background: linear-gradient(135deg, rgba(255,43,43,.95), rgba(255,43,43,.15));
+      box-shadow:0 0 0 1px var(--line), 0 12px 34px var(--shadow);
+    }
+    .brand h1{margin:0;font-size:20px;letter-spacing:.9px}
+    .brand small{display:block;color:var(--muted);letter-spacing:.18em;margin-top:2px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px}
+    nav a:hover{color:var(--text)}
+    .pill{
+      border:1px solid var(--line); border-radius:999px;
+      padding:6px 10px; color:var(--muted); font-size:12px; letter-spacing:.14em;
+      text-transform:uppercase; background:rgba(255,255,255,.02)
+    }
+
+    .hero{
+      margin-top:20px;
+      border:1px solid var(--line); border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      padding:22px;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero:before{
+      content:"";
+      position:absolute; inset:-2px;
+      background: radial-gradient(650px 220px at 25% 0%, rgba(255,43,43,.25), transparent 60%);
+      pointer-events:none;
+    }
+    .kicker{color:var(--muted);letter-spacing:.22em;text-transform:uppercase;font-size:12px}
+    h2{margin:8px 0 0;font-size:34px;line-height:1.1}
+    .lead{margin:10px 0 0;color:var(--muted);line-height:1.7}
+
+    .section{
+      margin-top:16px;
+      border:1px solid var(--line);
+      border-radius:16px;
+      background: var(--panel);
+      padding:16px;
+    }
+    .section h3{
+      margin:0 0 10px;
+      font-size:16px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:28px;height:28px;
+      border-radius:10px;
+      border:1px solid rgba(255,43,43,.45);
+      background: rgba(255,43,43,.14);
+      box-shadow:0 10px 24px rgba(255,43,43,.10);
+      font-weight:700;
+    }
+    ol{margin:0;padding-left:20px;color:var(--muted);line-height:1.8}
+    .divider{
+      margin:14px 0;
+      height:1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.12), transparent);
+    }
+    .callout{
+      margin-top:16px;
+      border:1px solid rgba(255,43,43,.35);
+      border-radius:16px;
+      background: rgba(255,43,43,.10);
+      padding:14px;
+      color:var(--text);
+    }
+    .callout p{margin:0;color:var(--text);line-height:1.7}
+    .callout .muted{color:rgba(242,242,245,.78)}
+    .footer{
+      margin-top:28px; padding-top:18px; border-top:1px solid var(--line);
+      color:var(--muted); font-size:13px; display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap;
+    }
+
+    @media (max-width: 860px){
+      nav{display:none}
+      h2{font-size:30px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logoMark" aria-hidden="true"></div>
+        <div>
+          <h1>ARCZEWSKI VTC</h1>
+          <small>TRANSPORT I LOGISTYKA</small>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <span class="pill">REGULAMIN</span>
+        <nav>
+          <a href="index.html">Start</a>
+          <a href="rekrutacja.html">Rekrutacja</a>
+          <a href="flota.html">Flota</a>
+          <a href="regulamin.html">Regulamin</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="kicker">Arczewski VTC</div>
+      <h2>REGULAMIN FIRMY</h2>
+      <p class="lead">Dołączenie do firmy oznacza akceptację niniejszego regulaminu. Jeździmy dla zabawy, ale na poziomie — z kulturą i realizmem.</p>
+    </section>
+
+    <section class="section">
+      <h3><span class="badge">1</span> Postanowienia ogólne</h3>
+      <ol>
+        <li>Dołączenie do firmy oznacza akceptację niniejszego regulaminu.</li>
+        <li>Każdy członek firmy reprezentuje naszą społeczność – obowiązuje kultura osobista zarówno na Discordzie, jak i w grze.</li>
+        <li>W firmie obowiązuje wzajemny szacunek – zakazane są wyzwiska, obrażanie, dyskryminacja oraz trolling.</li>
+      </ol>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <h3><span class="badge">2</span> Discord i komunikacja</h3>
+      <ol>
+        <li>Zalecane jest korzystanie z komunikatora głosowego podczas konwojów.</li>
+        <li>Spamowanie, floodowanie i nadużywanie pingów jest zakazane.</li>
+        <li>Nick na Discordzie powinien być zbliżony do nicku w grze, aby łatwo było rozpoznać kierowcę.</li>
+        <li>Wszelkie spory należy zgłaszać zarządowi firmy – kłótnie na kanałach publicznych będą karane.</li>
+      </ol>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <h3><span class="badge">3</span> Zasady jazdy i konwojów</h3>
+      <ol>
+        <li>Podczas konwojów obowiązuje stosowanie się do poleceń prowadzącego (pilotów, organizatora).</li>
+        <li>Każdy uczestnik konwoju musi pojawić się punktualnie w miejscu zbiórki.</li>
+        <li>Zalecane jest posiadanie sprawnego mikrofonu.</li>
+        <li>Zabrania się wyprzedzania konwoju, utrudniania jazdy innym i celowego powodowania kolizji.</li>
+        <li>Minimalny dystans między pojazdami w konwoju to 100 metrów (chyba że prowadzący ustali inaczej).</li>
+        <li>Styl jazdy ma być realistyczny i bezpieczny (dostosowanie prędkości do kolumny, sygnalizowanie manewrów).</li>
+      </ol>
+
+      <div class="callout" style="margin-top:14px">
+        <p><b>WKRÓTCE KONWOJE</b><br><span class="muted">Informacje o terminach i trasach będą publikowane na Discordzie.</span></p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <h3><span class="badge">4</span> Obowiązki kierowcy</h3>
+      <ol>
+        <li>Każdy kierowca powinien wykonać minimum <b>3 000 km</b> miesięcznie – chyba że uzyska zgodę na urlop.</li>
+        <li>Trasy można rejestrować na TrucksBook (obowiązkowo).</li>
+        <li>Kierowca ma obowiązek dbać o dobry wizerunek firmy na TruckersMP.</li>
+        <li>Jazda na serwerach TMP „Simulation” (chyba że ustalono inaczej).</li>
+      </ol>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <h3><span class="badge">5</span> Sankcje</h3>
+      <ol>
+        <li>Za złamanie regulaminu grożą: upomnienia, czasowe zawieszenie w konwojach, a w ostateczności usunięcie z firmy.</li>
+        <li>Decyzję o karze podejmuje Zarząd firmy.</li>
+        <li>W przypadku rażącego naruszenia zasad (np. trolling, obrażanie, celowe kolizje) – usunięcie następuje natychmiastowo.</li>
+      </ol>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <h3><span class="badge">6</span> Postanowienia końcowe</h3>
+      <ol>
+        <li>Regulamin może być aktualizowany – członkowie będą o tym informowani.</li>
+        <li>Brak znajomości regulaminu nie zwalnia z jego przestrzegania.</li>
+        <li><b>Najważniejsza zasada:</b> jeździmy dla zabawy i wspólnej atmosfery! 🚛✨</li>
+      </ol>
+
+      <div class="callout" style="margin-top:14px">
+        <p>
+          Jeśli zapoznałeś/aś się z Regulaminem Firmy, prosimy abyś zaznaczył/a reakcję poniżej — dzięki! ✅
+          <br><span class="muted">Wszelkie pytania i niejasności prosimy zgłaszać poprzez tickety na kanale <b>#📩・ticket</b>.</span>
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Arczewski VTC | Transport i Logistyka</div>
+      <div style="opacity:.9"><a href="index.html">Powrót na start</a></div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
