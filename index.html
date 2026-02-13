@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arczewski VTC | Transport i Logistyka</title>
+  <meta name="description" content="Arczewski VTC (ETS2) – rekrutacja kierowców. Dołącz do floty: Discord i TrucksBook." />
+  <style>
+    :root{
+      --bg:#07070a; --text:#f2f2f5; --muted:#b9b9c3;
+      --red:#ff2b2b; --line:rgba(255,255,255,.08); --shadow:rgba(255,43,43,.18);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:
+        radial-gradient(1200px 700px at 70% 15%, rgba(255,43,43,.22), transparent 55%),
+        radial-gradient(900px 600px at 20% 70%, rgba(255,43,43,.14), transparent 55%),
+        linear-gradient(180deg, rgba(255,255,255,.02), transparent 30%),
+        var(--bg);
+      color:var(--text);
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:34px 18px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logoMark{
+      width:44px;height:44px;border-radius:12px;
+      background: linear-gradient(135deg, rgba(255,43,43,.95), rgba(255,43,43,.15));
+      box-shadow:0 0 0 1px var(--line), 0 12px 34px var(--shadow);
+    }
+    .brand h1{margin:0;font-size:20px;letter-spacing:.9px}
+    .brand small{display:block;color:var(--muted);letter-spacing:.18em;margin-top:2px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px}
+    nav a:hover{color:var(--text)}
+    .pill{
+      border:1px solid var(--line); border-radius:999px;
+      padding:6px 10px; color:var(--muted); font-size:12px; letter-spacing:.14em;
+      text-transform:uppercase; background:rgba(255,255,255,.02)
+    }
+    .hero{
+      margin-top:26px;
+      border:1px solid var(--line); border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      padding:28px;
+    }
+    .heroGrid{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center}
+    .kicker{color:var(--muted);letter-spacing:.22em;text-transform:uppercase;font-size:12px}
+    .hero h2{margin:10px 0 10px;font-size:42px;line-height:1.05}
+    .hero p{color:var(--muted);margin:0 0 18px;font-size:15px;line-height:1.65}
+    .btns{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{
+      padding:11px 14px;border-radius:12px;border:1px solid var(--line);
+      text-decoration:none;color:var(--text);display:inline-flex;gap:10px;align-items:center;
+      background: rgba(255,255,255,.03);
+    }
+    .btn.primary{border-color:rgba(255,43,43,.55); background: rgba(255,43,43,.14)}
+    .card{
+      border:1px solid var(--line); border-radius:16px;
+      background: rgba(0,0,0,.22);
+      padding:16px;
+    }
+    .card h3{margin:0 0 10px;font-size:16px}
+    ul{margin:0;padding-left:18px;color:var(--muted);line-height:1.7}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+    .section{margin-top:28px}
+    .section h3{margin:0 0 10px}
+    .links{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .linkbox{
+      border:1px solid var(--line); border-radius:14px; padding:14px;
+      background: rgba(255,255,255,.02);
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+    }
+    .small{color:var(--muted);font-size:13px}
+    .footer{
+      margin-top:36px; padding-top:18px; border-top:1px solid var(--line);
+      color:var(--muted); font-size:13px; display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap;
+    }
+    @media (max-width: 860px){
+      .heroGrid{grid-template-columns:1fr}
+      .hero h2{font-size:34px}
+      nav{display:none}
+      .links{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logoMark"></div>
+        <div>
+          <h1>ARCZEWSKI VTC</h1>
+          <small>TRANSPORT I LOGISTYKA</small>
+        </div>
+      </div>
+      <nav>
+        <a href="#">Start</a>
+        <a href="#">Rekrutacja</a>
+        <a href="#">Flota</a>
+        <a href="#">Regulamin</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="heroGrid">
+        <div>
+          <div class="kicker">Dołącz do floty</div>
+          <h2>Rekrutacja kierowców<br/>Arczewski VTC</h2>
+          <p>Realna logistyka, porządek w trasach i luźna atmosfera. Jeśli lubisz jeździć z klimatem — wskakuj do nas.</p>
+          <div class="btns">
+            <a class="btn primary" href="https://discord.gg/FDGnZkMcSR" target="_blank">💬 Wejdź na Discord</a>
+            <a class="btn" href="https://trucksbook.eu/company/220655" target="_blank">🧾 Profil TrucksBook</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Wymagania</h3>
+          <ul>
+            <li>50h w ETS2</li>
+            <li>Wiek 15+ (mogą być wyjątki)</li>
+            <li>Posiadanie konta TrucksBook</li>
+            <li>Wyrabianie 3000 km miesięcznie</li>
+            <li>Umiejętność odwzorowania zestawu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Kontakt</h3>
+      <div class="links">
+        <div class="linkbox">
+          <div>
+            <b>Discord</b>
+            <div class="small">discord.gg/FDGnZkMcSR</div>
+          </div>
+        </div>
+        <div class="linkbox">
+          <div>
+            <b>TrucksBook</b>
+            <div class="small">trucksbook.eu/company/220655</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Arczewski VTC</div>
+      <div>Transport i Logistyka</div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
